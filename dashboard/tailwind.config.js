@@ -6,9 +6,9 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-	extend: {
-		colors: palette
-	},
+    extend: {
+      colors: palette
+    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -169,9 +169,9 @@ module.exports = {
     fontFamily: {
       regular: ['RobotoRegular'],
       medium: ['RobotoMedium'],
-      medium: ['RobotoBold'],
+      bold: ['RobotoBold'],
       black: ['RobotoBlack'],
-	  
+
       sans: [
         'ui-sans-serif',
         'system-ui',
