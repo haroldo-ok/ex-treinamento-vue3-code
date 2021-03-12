@@ -1,6 +1,6 @@
 import Store from '../store'
 
-export function useStore (module) {
+export default function useStore (module) {
   if (module) {
     const store = Store[module]
     if (!store) {

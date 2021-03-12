@@ -34,7 +34,7 @@
 <script>
 import { reactive } from 'vue'
 import services from '../../services'
-import { useStore } from '../../hooks/useStore'
+import useStore from '../../hooks/useStore'
 
 const LABELS = {
   all: 'Todos',

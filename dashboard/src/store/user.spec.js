@@ -1,6 +1,6 @@
-import { useStore } from '../hooks/useStore'
+import useStore from '../hooks/useStore'
 import {
-    cleanCurrentUser,
+  cleanCurrentUser,
   resetUserStore,
   setApiKey,
   setCurrentUser
